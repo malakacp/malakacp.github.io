@@ -19,7 +19,7 @@ As lead inventor on **[GB Patent 2605773 B](https://patents.google.com/patent/GB
 ### 1. The Engineering Challenge: The Fluid Management Paradox
 
 * **The Strike-Through vs. Leakage Conflict:** Designing an effective absorbent textile requires four opposing fluid behaviors in a single ultra-thin garment gusset:
-  1. *Immediate Acquisition:* Pulling fluid away from skin in under 2 seconds.
+  1. *Immediate Acquisition:* Pulling fluid away from skin in under 2 seconds ("feels like dry").
   2. *Lateral Dispersal:* Distributing liquid evenly across the core to prevent localized saturation and pooling.
   3. *Pressure Retention:* Preventing liquid from squeezing back out against the skin when the user sits or moves ("rewet").
   4. *Breathable Containment:* Blocking liquid leakage entirely while remaining permeable to air and water vapor.

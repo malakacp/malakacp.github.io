@@ -46,11 +46,18 @@ social: false
   transform: translateY(-1px) !important;
 }
 .publications .badge-award {
-  display: block;
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: #d97706;
-  margin-top: 3px;
+  display: inline-block !important;
+  background: #fef3c7 !important; /* Crisp light-gold background */
+  color: #854d0e !important;      /* Deep sharp bronze text - 100% readable */
+  border: 1px solid #facc15 !important;
+  font-size: 0.68rem !important;
+  font-weight: 700 !important;
+  padding: 2px 8px !important;
+  border-radius: 12px !important;
+  margin-top: 4px !important;
+  letter-spacing: 0.02em !important;
+  text-transform: uppercase !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) !important;
 }
 .section-badge {
   display: inline-flex;

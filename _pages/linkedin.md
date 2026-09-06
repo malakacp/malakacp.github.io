@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "LinkedIn"
+title: "Connect"
 permalink: /linkedin/
 nav: true
 nav_order: 5

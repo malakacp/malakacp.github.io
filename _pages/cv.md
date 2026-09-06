@@ -151,9 +151,6 @@ Accomplished **Textile R&D Leader and Material Engineer** with over 10 years of 
 
 Expert in advanced 3D flatbed knitting (Stoll & Shima Seiki), performance fabric development, cost-efficient decentralized manufacturing models, and material quality optimization. Proven track record of leading cross-functional engineering teams, driving open innovation across global supply chains, and translating laboratory material science into scalable, retail-ready garments.
 
-* **Visa Status:** Australian Subclass 190 Permanent Resident (Target: Melbourne, VIC)
-* **Location / Availability:** Colombo, Sri Lanka | Available for global relocation and remote consulting
-
 ---
 
 ### <span id="experience">Work Experience</span>

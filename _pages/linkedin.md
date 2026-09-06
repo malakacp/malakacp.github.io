@@ -1,8 +1,8 @@
 ---
 layout: page
-title: <i class="fa-brands fa-linkedin"></i> LinkedIn
+title: "LinkedIn"
 permalink: /linkedin/
 nav: true
 nav_order: 5
-redirect: https://www.linkedin.com/in/malaka-perera-b5374053/
+redirect: "https://www.linkedin.com/in/malaka-perera-b5374053/"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Fabric with Fluid Absorption Capabilities (Patent GB2605773B)
+title: Knitted advance fluid management textile composite
 description: Granted UK patent for an engineered multi-layer knitted textile architecture delivering rapid liquid wicking, high retention capacity, and leak-proof containment for reusable intimates.
 img: assets/img/absorbent_fabric.jpg
 importance: 6

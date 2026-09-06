@@ -2,7 +2,7 @@
 layout: page
 title: Knitted advance fluid management textile composite
 description: Granted UK patent for an engineered multi-layer knitted textile architecture delivering rapid liquid wicking, high retention capacity, and leak-proof containment for reusable intimates.
-img: assets/img/absorbent_fabric.jpg
+img: assets/img/fluid.png
 importance: 6
 category: MedTech & Wearables
 related_publications: true

@@ -100,10 +100,12 @@ My focus is on solving high-barrier engineering challenges—transitioning novel
 
 ### <span class="section-badge"><i class="fa-solid fa-layer-group"></i></span> Core Areas of Expertise
 
+* **Garment Engineering & Body Mapping:** Comprehensive apparel product development integrating anatomical body mapping, technical material selection, and functional prototyping from concept to commercial scale.
 * **Advanced 3D Flatbed Knitting:** Full-garment engineering, zonal modulus control, and structural programming on Shima Seiki (APEX3) and Stoll (M1 Plus) platforms.
 * **Smart & Electronic Textiles (E-Textiles):** Conductive pathways, embedded sensors/actuators, wireless power transmission, and active heating platforms.
 * **Medical & Therapeutic Wearables:** Knitted pneumatic compression sleeves, vibration therapy systems, and respiratory interface components.
-* **Sustainable & Circular Engineering:** Circular mono-material structures designed for recyclability, including 3D-knitted solutions engineered to eliminate non-recyclable polyurethane foam.
+* **Sustainable & Circular Engineering:** End-to-end design and engineering of circularity-enabled textiles material/ structures developed for closed-loop recycling.
+
 
 ---
 

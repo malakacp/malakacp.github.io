@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: "Textile R&D Engineer | Flat knit programmer | Smart Wearables Specialist | Advance textile material designer"
+subtitle: "Textile R&D Engineer | Garment Developer | Flat knit programmer | Smart Wearables Specialist | Advance textile material designer"
 
 profile:
   align: right

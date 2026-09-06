@@ -9,33 +9,139 @@ toc:
   sidebar: left
 ---
 
-<!-- Quick Navigation & Download Header -->
-<div class="cv-header mb-4 p-3 rounded" style="background: rgba(128, 128, 128, 0.08); border: 1px solid rgba(128, 128, 128, 0.15);">
-  <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-3">
+<!-- Modern Executive CV Header -->
+<div class="cv-hero-card">
+  <div class="cv-hero-top">
     <div>
-      <h4 class="mb-0 font-weight-bold">Malaka Perera</h4>
-      <p class="text-muted small mb-0">Textile R&D Leader & Material Engineer | Australian Subclass 190 Permanent Resident</p>
+      <h2 class="cv-name">Malaka Perera</h2>
+      <p class="cv-subtitle">
+        Textile R&D Leader & Material Engineer 
+        <span class="pr-badge"><i class="fa-solid fa-passport me-1"></i> Australian Subclass 190 PR</span>
+      </p>
     </div>
-    <a href="{{ '/assets/pdf/malaka_cv.pdf' | relative_url }}" 
-       target="_blank" 
-       rel="noopener noreferrer" 
-       class="btn btn-primary btn-sm z-depth-0"
-       style="padding: 8px 18px; border-radius: 6px; font-weight: 500;">
-      <i class="fa-solid fa-file-arrow-down me-1"></i> Download PDF CV
-    </a>
+    <div>
+      <a href="{{ '/assets/pdf/malaka_cv.pdf' | relative_url }}" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="modern-download-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 6px;">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        Download CV (PDF)
+      </a>
+    </div>
   </div>
 
-  <!-- Jump Links Navigation Bar -->
-  <div class="d-flex flex-wrap gap-2 pt-2 border-top" style="font-size: 0.88rem;">
-    <a href="#summary" class="badge badge-light p-2 text-decoration-none border">Summary</a>
-    <a href="#experience" class="badge badge-light p-2 text-decoration-none border">Experience</a>
-    <a href="#patents" class="badge badge-light p-2 text-decoration-none border">Patents & IP</a>
-    <a href="#projects" class="badge badge-light p-2 text-decoration-none border">Key Projects</a>
-    <a href="#education" class="badge badge-light p-2 text-decoration-none border">Education</a>
-    <a href="#skills" class="badge badge-light p-2 text-decoration-none border">Skills & Software</a>
-    <a href="#pdf-viewer" class="badge badge-light p-2 text-decoration-none border">View Full PDF</a>
+  <div class="cv-nav-row">
+    <a href="#summary" class="cv-nav-pill">Summary</a>
+    <a href="#experience" class="cv-nav-pill">Experience</a>
+    <a href="#patents" class="cv-nav-pill">Patents & IP</a>
+    <a href="#projects" class="cv-nav-pill">Key Projects</a>
+    <a href="#education" class="cv-nav-pill">Education</a>
+    <a href="#skills" class="cv-nav-pill">Skills & Software</a>
+    <a href="#pdf-viewer" class="cv-nav-pill cv-nav-pill-accent">
+      <i class="fa-regular fa-file-pdf me-1"></i> View Full PDF
+    </a>
   </div>
 </div>
+
+<style>
+.cv-hero-card {
+  background: var(--global-card-bg-color, rgba(128, 128, 128, 0.05));
+  border: 1px solid rgba(128, 128, 128, 0.18);
+  border-radius: 12px;
+  padding: 1.4rem 1.6rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+}
+.cv-hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.1rem;
+}
+.cv-name {
+  font-weight: 700;
+  margin: 0 0 0.3rem 0;
+  letter-spacing: -0.02em;
+}
+.cv-subtitle {
+  color: var(--global-text-color-light, #666);
+  margin: 0;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+.pr-badge {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(30, 144, 255, 0.1);
+  color: #1a73e8;
+  border: 1px solid rgba(30, 144, 255, 0.25);
+  padding: 2px 10px;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+.modern-download-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--global-theme-color, #1a73e8);
+  color: #ffffff !important;
+  font-weight: 600;
+  font-size: 0.88rem;
+  padding: 0.55rem 1.25rem;
+  border-radius: 8px;
+  text-decoration: none !important;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+.modern-download-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+  color: #ffffff !important;
+}
+.cv-nav-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(128, 128, 128, 0.15);
+}
+.cv-nav-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.95rem;
+  border-radius: 20px;
+  font-size: 0.83rem;
+  font-weight: 500;
+  color: inherit !important;
+  background: rgba(128, 128, 128, 0.08);
+  border: 1px solid rgba(128, 128, 128, 0.18);
+  text-decoration: none !important;
+  transition: all 0.15s ease-in-out;
+}
+.cv-nav-pill:hover {
+  background: rgba(128, 128, 128, 0.2);
+  transform: translateY(-1px);
+  color: inherit !important;
+}
+.cv-nav-pill-accent {
+  background: rgba(30, 144, 255, 0.08);
+  border-color: rgba(30, 144, 255, 0.3);
+}
+.cv-nav-pill-accent:hover {
+  background: rgba(30, 144, 255, 0.18);
+}
+</style>
 
 ---
 

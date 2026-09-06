@@ -15,6 +15,43 @@ social: false
 ---
 
 <style>
+  .publications a[href*="patents.google.com"],
+.publications a.btn[role="button"] {
+  font-size: 0 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 4px 12px !important;
+  border-radius: 6px !important;
+  background: rgba(30, 144, 255, 0.08) !important;
+  border: 1px solid rgba(30, 144, 255, 0.3) !important;
+  color: #1a73e8 !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease-in-out !important;
+}
+.publications a[href*="patents.google.com"]::before,
+.publications a.btn[role="button"]::before {
+  content: "Google Patent" !important;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+}
+.publications a[href*="patents.google.com"]::after,
+.publications a.btn[role="button"]::after {
+  content: " ↗" !important;
+  font-size: 0.85rem !important;
+  margin-left: 4px !important;
+}
+.publications a[href*="patents.google.com"]:hover,
+.publications a.btn[role="button"]:hover {
+  background: rgba(30, 144, 255, 0.18) !important;
+  transform: translateY(-1px) !important;
+}
+.publications .badge-award {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #d97706;
+  margin-top: 3px;
+}
 .section-badge {
   display: inline-flex;
   align-items: center;

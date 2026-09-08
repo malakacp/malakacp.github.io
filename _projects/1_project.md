@@ -15,7 +15,7 @@ Traditional molded intimate apparel relies on non-recyclable polyurethane (PU) f
 By replacing foam with an engineered, breathable 3D knitted mono-material structure, this innovation eliminated landfill waste while maintaining anatomical support, soft contouring, and durability.
 
 <div class="text-center my-4">
-  <img src="{{ '/assets/img/bra_cup.jpg' | relative_url }}" 
+  <img src="{{ '/assets/img/bra_cup.png' | relative_url }}" 
        alt="Victoria's Secret Forever Bra 3D Knitted Pad" 
        class="img-fluid rounded shadow-sm" 
        style="max-width: 85%; border: 1px solid rgba(128,128,128,0.2);">
